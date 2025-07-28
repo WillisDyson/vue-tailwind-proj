@@ -1,7 +1,7 @@
 # Vue.js and Tailwind CSS "URL shortener" project
 A sample project from [Frontend Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G) which uses Vue.js (and Tailwind CS for styling). The app uses Axios to fetch data from the [Clean URL API](https://cleanuri.com/docs).
 
-![Example screenshot of the projet]([http://url/to/img.png)](https://willisdyson.dev/images/vueproj1.png)
+![Example screenshot of the project](https://willisdyson.dev/images/vueproj1.png)
 
 ## Hosted version (backend not connected)
 If you wish to see a live preview without downloading any files, you can find it here: https://lucky-selkie-2ea4b2.netlify.app/
