@@ -6,10 +6,13 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   purge: [],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: false,
   theme: {
     extend: {},
   },
+  safelist: [
+    'm-0'
+  ],
   variants: {
     extend: {},
   },

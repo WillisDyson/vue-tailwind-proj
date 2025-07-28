@@ -29,7 +29,7 @@ const submitUrl = async () => {
 </script>
 
 <template>
-  <form @submit.prevent="submitUrl" class="p-4">
+  <form @submit.prevent="submitUrl" class="flex">
     <UrlInputField v-model="originalUrl" placeholder="Enter a URL to shorten" />
     <UrlFormSubmit />
 

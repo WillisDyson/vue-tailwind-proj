@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+* {
+    font-family: sofia-pro-soft, Arial, sans-serif;
+}
