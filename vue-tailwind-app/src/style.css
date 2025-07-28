@@ -1,8 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import 'tailwindcss';
 
+@layer custom {
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
 
-* {
-    font-family: sofia-pro-soft, Arial, sans-serif;
+    * {
+        background-color: transparent;
+        color: #ffffff;
+        padding: 0;
+        margin: 0;
+        font-family: sofia-pro-soft, Arial, sans-serif;
+    }
+
+    html {
+        background-color: #272727;
+    }
 }
+
+
+:host {
+    margin: initial;
+    padding: initial;
+}
+
